@@ -1,0 +1,22 @@
+.dropdown-input {
+	position: relative;
+}
+
+.dropdown-input .dropdown-list {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	display: none;
+}
+
+.dropdown-input .dropdown-list > div {
+	padding: .4em .6em;
+	cursor: pointer;
+}
+
+.dropdown-input .dropdown-list > div:hover {
+	background-color: #0d66c2;
+	color: #fff;
+}

@@ -1,0 +1,68 @@
+.scene3d-scene .scene3d-renderer-wrap {
+	position: relative;
+}
+
+.scene3d-scene > * {
+	position: absolute;
+}
+
+.scene3d-scene .fs-button {
+	position: absolute;
+	font-size: 1em;
+	z-index: 99999;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity .5s;
+	text-align: right;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.scene3d-scene:hover .fs-button {
+	display: inline-block;
+	opacity: 1;
+}
+
+.scene3d-scene canvas,
+.scene3d-scene .loading-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.scene3d-scene .loading-overlay {
+	z-index: 999;
+	-webkit-backdrop-filter: blur(25px);
+	backdrop-filter: blur(25px);
+}
+
+.scene3d-scene .loading-inner {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.scene3d-spinner {
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	display: inline-block;
+	animation: spin 1s linear infinite;
+}
+
+.scene3d-centered {
+	text-align: center;
+}

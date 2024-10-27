@@ -1,0 +1,226 @@
+#scene3d-preview {
+	position: relative;
+	user-select: none;
+}
+
+#scene3d-preview .fps-counter {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	text-align: center;
+	z-index: 100;
+	color: #000;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	display: none;
+}
+
+#scene3d-preview .go-fs,
+#scene3d-preview #lock-cam,
+#scene3d-preview #unlock-cam {
+	position: absolute;
+	top: 5px;
+	text-align: center;
+	z-index: 100;
+	color: #000;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	font-size: 2em;
+	cursor: pointer;
+	display: none;
+}
+
+#scene3d-preview .go-fs {
+	right: 5px;
+}
+
+#scene3d-preview #lock-cam,
+#scene3d-preview #unlock-cam {
+	right: 40px;
+}
+
+.postbox-container label.label {
+	display: block;
+	margin-top: .6em;
+}
+
+span.label {
+	font-weight: bold;
+	display: block;
+	margin: .3em auto .6em;
+}
+
+.error-message {
+	color: crimson;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.acc-head,
+#elements-list .element-head {
+	background-color: #dadadf;
+	color: #222;
+	border: 1px solid #ab9e9e;
+	margin-top: .6em;
+}
+
+.acc-head .icons,
+.element-head .icons {
+	font-size: 1.2em;
+}
+
+.acc-head .ion,
+.element-head .ion {
+	margin: auto .5em;
+}
+
+.acc-head[aria-expanded="false"] .ion-ios-arrow-up,
+.element-head[aria-expanded="false"] .ion-ios-arrow-up {
+	display: none;
+}
+
+.acc-head[aria-expanded="true"] .ion-ios-arrow-down,
+.element-head[aria-expanded="true"] .ion-ios-arrow-down {
+	display: none;
+}
+
+#elements-list .element-details {
+	border: 1px solid #ab9e9e;
+	border-top: none;
+}
+
+.scene3d-element > div {
+	padding: .5em .8em;
+}
+
+.scene3d-element .vector-container > * {
+	padding: 5px;
+}
+
+.scene3d-element .vector-container:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.scene3d-element .vector {
+	margin-bottom: 1em;
+}
+
+.transform {
+	width: 10em;
+}
+
+.scene3d-element .vector input {
+	margin-right: 1.6em;
+}
+
+.rtl .scene3d-element .vector input {
+	margin-right: auto;
+	margin-left: 1.6em;
+}
+
+.vector-index {
+	font-weight: 600;
+}
+
+.vector-index:after {
+	content: ":";
+}
+
+.scene3d-element .ion {
+	cursor: pointer;
+}
+
+.acc-body {
+	border: 1px solid #ab9e9e;
+}
+
+.acc-body > div {
+	margin-bottom: 1em;
+}
+
+.acc-body:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#lights .ui-accordion > div,
+#camera .ui-accordion > div {
+	padding: .6em .8em;
+}
+
+.acc-head {
+	background-color: #f8f8f8;
+}
+
+.acc-body {
+	border-top: none;
+}
+
+.inside .description {
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.inside .description.dynamic {
+	margin: .6em auto 1.2em;
+}
+
+.alignclear {
+	clear: both;
+}
+
+p.scene3d-notice {
+	border: 1px solid #4f94d4;
+	padding: 3px 5px;
+	border-radius: 2px;
+	font-size: 1.1em;
+}
+
+p.scene3d-notice.info {
+	background-color: #a2e7ff;
+}
+
+span.scene3d-warning {
+	color: #d63638;
+	font-weight: 600;
+}
+
+#usage .copy {
+	cursor: pointer;
+	color: #2271b1;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#usage-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#usage-inner label span {
+	display: block;
+	font-weight: bold;
+	margin: 5px auto 10px;
+}
+
+#usage-inner > div {
+	margin-right: 2em;
+}
+
+.rtl #usage-inner > div {
+	margin-left: 2em;
+	margin-right: 0;
+}
+
+#usage-inner > div:first-of-type input {
+	width: 10em;
+}
+
+#usage-inner > div:nth-of-type(2) input {
+	width: 18em;
+}
+
+#async-errors {
+	display: none;
+}

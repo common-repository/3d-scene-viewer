@@ -1,0 +1,724 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 3D scene viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-25 09:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: scene3d"
+
+#: includes/plugin.php:205
+msgid "3D Scene"
+msgstr ""
+
+#: includes/gutenberg/gutenberg.php:61
+msgid "3D scene"
+msgstr ""
+
+#. Name of the plugin
+msgid "3D Scene Viewer"
+msgstr ""
+
+#: includes/plugin.php:204
+msgid "3D Scenes"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:45
+msgid ""
+"A light source positioned directly above the scene, with color fading from "
+"the sky color to the ground color."
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:82
+msgid ""
+"A light that emits parallel rays, a small scale sun-like source. Very cheap "
+"for the GPU to generate but shadows might not look good in some setups."
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:15
+msgid ""
+"A light that gets emitted from a single point in all directions. This light "
+"can cast shadows"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:16
+msgid "A simple plane geometry to serve as a floor on the scene"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:35
+msgid "Add element"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:24
+msgid "Add element to the scene"
+msgstr ""
+
+#: includes/plugin.php:207
+msgid "Add New 3D Scene"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:89
+msgid "Allow fullscreen"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:92
+msgid "Allow the scene to enter fullscreen"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:13
+msgid "Ambient light"
+msgstr ""
+
+#: admin/views/parts/floor.php:40
+msgid "Amount of division per side"
+msgstr ""
+
+#: admin/views/parts/async-errors.php:7
+msgid "An unexpected error happened"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:67
+msgid "Angle"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:89
+msgid "Animations"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:99
+msgid "Animations will be played simultaneously"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:36
+msgid "Aspect ratio"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:80
+msgid "Background color"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:118
+msgid ""
+"Camera frustum vertical field of view, from bottom to top of view, in degrees"
+msgstr ""
+
+#: admin/admin.php:501
+msgid "Camera settings"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:77
+msgid "Cast"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:79
+msgid "Cast and receive"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:82
+msgid "Cast shadows to other elements of the scene"
+msgstr ""
+
+#: admin/views/parts/floor.php:13
+msgid "Change to the floor requires saving the scene to take effect"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:108
+msgid "Clipping and FOV"
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:23 admin/views/metaboxes/lights.php:24
+#: admin/views/metaboxes/lights.php:90 admin/views/parts/floor.php:20
+#: admin/views/parts/pointlight.php:14 admin/views/parts/spotlight.php:14
+msgid "Color"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:131
+msgid "Controls"
+msgstr ""
+
+#: admin/views/parts/columns.php:12 admin/views/parts/columns.php:19
+msgid "Copy"
+msgstr ""
+
+#: admin/views/metaboxes/usage.php:15 admin/views/metaboxes/usage.php:22
+msgid "copy"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create and show 3D scenes on your site."
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:15
+msgid "Current position"
+msgstr ""
+
+#: admin/views/parts/pointlight.php:49 admin/views/parts/spotlight.php:77
+msgid "Decay"
+msgstr ""
+
+#: admin/admin.php:513
+msgid "Default lights"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:158
+msgid "Determines, with the position ,the orientation the light emitted"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:126
+msgid ""
+"Determines, with the target ,the orientation the light emitted. The entire "
+"scene will still be illuminated regardless of the position of the source but "
+"shadows are computed for rays emitted around the source position."
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:73
+msgid "Directional light"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:166 admin/views/metaboxes/settings.php:54
+#: admin/views/parts/gltf-fbx.php:76
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/parts/floor.php:30
+msgid "disabled"
+msgstr ""
+
+#: admin/views/parts/pointlight.php:44 admin/views/parts/spotlight.php:62
+msgid "Distance"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:128
+msgid "Distance to camera frustum far plane"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:123
+msgid "Distance to camera frustum near plane"
+msgstr ""
+
+#: includes/plugin.php:208 includes/gutenberg/gutenberg.php:63
+msgid "Edit"
+msgstr ""
+
+#: includes/plugin.php:209
+msgid "Edit 3D Scene"
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:13
+msgid "Enable"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:138
+msgid "Enable camera controls"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:146
+msgid "Enable camera panning (right click) on the front end"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:58
+msgid "Enable casting and receiving shadows."
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:17
+msgid "Enable fog in the scene."
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:143
+msgid "Enable panning"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:164
+msgid "Enable shadow"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:167 admin/views/metaboxes/settings.php:53
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/parts/floor.php:31
+msgid "enabled"
+msgstr ""
+
+#: includes/views/scene-output.php:18
+msgid "Enter fullscreen"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:125 admin/views/metaboxes/fog.php:39
+msgid "Far"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:30
+msgid "FBX file"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:13
+msgid "FBX file version 6400 or newer. Binary format only"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:85
+msgid ""
+"FBX files often need to be scaled down around 0.01 when used along side glTF "
+"ones"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:115
+msgid "Field of view"
+msgstr ""
+
+#: admin/views/parts/floor.php:35
+msgid "Fills the floor with a grid"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:33 admin/views/parts/floor.php:5
+msgid "Floor"
+msgstr ""
+
+#: admin/views/parts/floor.php:25
+msgid "Floor color"
+msgstr ""
+
+#: admin/admin.php:477
+msgid "Fog"
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:28
+msgid "Fog color"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:99
+msgid "Frames per second counter (backend only)"
+msgstr ""
+
+#: admin/views/metaboxes/preview.php:8
+msgid "Fullscreen"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:12
+msgid "glTF v2.0 file (.glb or .gltf format)"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:29
+msgid "GLTF/GLB file"
+msgstr ""
+
+#: admin/views/parts/floor.php:27
+msgid "Grid"
+msgstr ""
+
+#: admin/views/parts/floor.php:42
+msgid "Grid color"
+msgstr ""
+
+#: admin/views/parts/floor.php:37
+msgid "Grid division"
+msgstr ""
+
+#: admin/views/parts/floor.php:49
+msgid "Grid opacity"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:64
+msgid "Ground color"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:37
+msgid "Hemisphere light"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:68
+msgid "high"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:156
+msgid ""
+"How far you can orbit horizontally, lower limit in degrees. Can be infinite"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:151
+msgid ""
+"How far you can orbit horizontally, upper limit in degrees. Can be infinite"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:166
+msgid "How far you can orbit vertically, lower limit in degrees"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:161
+msgid "How far you can orbit vertically, upper limit in degrees"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:176
+msgid "How far you zoom in"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:171
+msgid "How far you zoom out. Can be infinite"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:14
+msgid "HTML id attribute"
+msgstr ""
+
+#. 1: <div> tag, 2: <canvas> tag
+#: admin/views/metaboxes/settings.php:22
+#, php-format
+msgid ""
+"ID attribute of the %1$s node wrapping the %2$s in which the scene is "
+"rendered"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:30 admin/views/metaboxes/lights.php:48
+#: admin/views/metaboxes/lights.php:98 admin/views/parts/pointlight.php:21
+#: admin/views/parts/spotlight.php:21
+msgid "Intensity"
+msgstr ""
+
+#: admin/admin.php:349
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/views/parts/floor.php:18
+msgid "Length of the side of the square"
+msgstr ""
+
+#: admin/views/metaboxes/preview.php:9
+msgid "Lock camera"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:66
+msgid "low"
+msgstr ""
+
+#: admin/views/parts/pointlight.php:24 admin/views/parts/spotlight.php:24
+msgid "Luminous intensity of the light measured in candela (cd)"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:148
+msgid "Max. azimuth angle"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:168
+msgid "Max. distance"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:158
+msgid "Max. polar angle"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:70
+msgid "Maximum angle of light dispersion from its direction. Max: 90 degrees"
+msgstr ""
+
+#: admin/views/parts/pointlight.php:47
+msgid "Maximum range of the light. 0 for no limit"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:65
+msgid ""
+"Maximum range of the light. When distance is zero, light will attenuate "
+"according to inverse-square law to infinite distance"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:67
+msgid "medium"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:153
+msgid "Min. azimuth angle"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:173
+msgid "Min. distance"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:163
+msgid "Min. polar angle"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:120 admin/views/metaboxes/fog.php:32
+msgid "Near"
+msgstr ""
+
+#: includes/plugin.php:206 includes/plugin.php:210
+msgid "New 3D Scene"
+msgstr ""
+
+#: includes/woocommerce/meta-box.php:14
+msgid "No 3D scene found"
+msgstr ""
+
+#: includes/plugin.php:214
+msgid "No 3D Scenes found"
+msgstr ""
+
+#: includes/plugin.php:215
+msgid "No 3D Scenes found in Trash"
+msgstr ""
+
+#: includes/woocommerce/meta-box.php:21
+msgid "none"
+msgstr ""
+
+#: includes/plugin.php:216
+msgid "Parent 3D Scene"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:72
+msgid "Penumbra"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:75
+msgid ""
+"Percent of the spotlight cone that is attenuated due to penumbra. Takes "
+"values between 0 and 1"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:32 admin/views/parts/pointlight.php:4
+msgid "Point light"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:104 admin/views/parts/gltf-fbx.php:20
+#: admin/views/parts/pointlight.php:26 admin/views/parts/spotlight.php:26
+msgid "Position"
+msgstr ""
+
+#: admin/admin.php:453
+msgid "Preview"
+msgstr ""
+
+#: includes/woocommerce/woocommerce.php:118
+msgid "Product 3D scene"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:78
+msgid "Receive"
+msgstr ""
+
+#: includes/gutenberg/gutenberg.php:62
+msgid "Replace"
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:18 admin/views/metaboxes/settings.php:59
+#: admin/views/metaboxes/settings.php:75
+msgid "Requires saving the scene to have effect"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:37
+msgid "Rotation"
+msgstr ""
+
+#: admin/views/parts/gltf-fbx.php:55
+msgid "Scale"
+msgstr ""
+
+#: admin/admin.php:465
+msgid "Scene elements"
+msgstr ""
+
+#: admin/admin.php:489
+msgid "Scene settings"
+msgstr ""
+
+#: includes/plugin.php:213
+msgid "Search 3D Scenes"
+msgstr ""
+
+#: admin/admin.php:348
+msgid "Select"
+msgstr ""
+
+#: includes/gutenberg/gutenberg.php:60
+msgid "Select a 3D scene"
+msgstr ""
+
+#: admin/admin.php:350
+msgid "Select a file"
+msgstr ""
+
+#: includes/woocommerce/meta-box.php:18
+msgid "Select a scene"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:28
+msgid "Select an element"
+msgstr ""
+
+#: admin/admin.php:351
+msgid "Select files"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:11
+msgid "Select one type of element"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:74
+msgid "Set as current position"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:42
+msgid "Set as start position"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:176
+msgid "Shadow camera size"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:51 admin/views/parts/gltf-fbx.php:73
+msgid "Shadows"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:171
+msgid "Shadows need to be enabled in the scene settings"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:64
+msgid "Shadows quality"
+msgstr ""
+
+#: admin/admin.php:43 admin/admin.php:48 admin/views/metaboxes/usage.php:13
+msgid "Shortcode"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:103
+msgid "Show axes helpers"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:96
+msgid "Show fps counter"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:106
+msgid "Show X,Y ans Z axes (backend only)"
+msgstr ""
+
+#: admin/views/parts/floor.php:15
+msgid "Size"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:179
+msgid ""
+"Size of the plane around the position for which light rays generate shadows. "
+"You might need to increase this value for scenes that spread across large "
+"surface"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:55
+msgid "Sky color"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:31 admin/views/parts/spotlight.php:4
+msgid "Spot light"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:47
+msgid "Start position"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:80 admin/views/metaboxes/lights.php:136
+#: admin/views/parts/spotlight.php:44
+msgid "Target"
+msgstr ""
+
+#: admin/admin.php:44 admin/admin.php:49 admin/views/metaboxes/usage.php:20
+msgid "Template tag"
+msgstr ""
+
+#: admin/views/parts/pointlight.php:52 admin/views/parts/spotlight.php:80
+msgid ""
+"The amount the light dims along the distance of the light. 2 leads to "
+"physically realistic light falloff"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:76
+msgid "The camera location right after loading the scene on the frontend"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:44
+msgid "The current camera location"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:74
+msgid "The greater it looks, heavier will be the load on the viewer's GPU."
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:44
+msgid ""
+"The maximum distance at which fog stops being calculated and applied. "
+"Objects that are more than 'far' units away from the active camera won't be "
+"affected by fog."
+msgstr ""
+
+#: admin/views/metaboxes/fog.php:35
+msgid ""
+"The minimum distance to start applying fog. Objects that are less than "
+"'near' units from the active camera won't be affected by fog"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:105
+msgid "The point the camera is pointing to"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:20 admin/views/metaboxes/lights.php:44
+msgid "This light doesn't cast shadow"
+msgstr ""
+
+#: admin/views/metaboxes/elements.php:14
+msgid ""
+"This light gets emitted from a single point in one direction, along a cone "
+"that increases in size the further from the light it gets. This light can "
+"cast shadows"
+msgstr ""
+
+#: admin/views/metaboxes/lights.php:21
+msgid "This light globally illuminates all objects in the scene equally."
+msgstr ""
+
+#: includes/woocommerce/meta-box.php:28
+msgid "This will replace any product image or gallery."
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:70
+msgid "ultra"
+msgstr ""
+
+#: admin/views/metaboxes/preview.php:10
+msgid "Unlock camera"
+msgstr ""
+
+#: admin/admin.php:441
+msgid "Usage"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:69
+msgid "very high"
+msgstr ""
+
+#: includes/plugin.php:211
+msgid "View"
+msgstr ""
+
+#: includes/plugin.php:212
+msgid "View the 3D Scene"
+msgstr ""
+
+#: admin/views/parts/spotlight.php:60
+msgid "Where the light is pointing at"
+msgstr ""
+
+#: admin/views/metaboxes/camera.php:141
+msgid "Whether to enable camera controls on the frontend"
+msgstr ""
+
+#: admin/views/metaboxes/settings.php:47
+msgid "Width/height ratio of the canvas in the format \"w:h\""
+msgstr ""
